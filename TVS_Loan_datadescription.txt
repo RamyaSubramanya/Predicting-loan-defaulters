@@ -1,0 +1,46 @@
+Personal Loan product is an unsecured loan therefore it is vital to assess the risk of the customers by checking their credit worthiness. This must be done to prevent loan defaults.
+
+**Unsecured loan: An Unsecured Loan is a loan provided solely based on the creditworthiness of the borrower without pledging any collateral as security in the event of default or non-payment of dues.
+
+***Maximum Loan amount: Salaried – Loan eligibility up to 15 times of gross monthly income Self Employed Person-Loan eligibility upto 4 times of Gross annual income
+
+***Repayment option: 5 yrs
+
+***Interest Rate: 14% – 18%
+
+
+The objective is to build a Risk model using the dataset which will assess the risk of a customer defaulting after cross-selling the Personal Loan.
+
+Column Descriptions:
+V1: Customer ID
+V2: If a customer has bounced in first EMI (1 : Bounced, 0 : Not bounced)
+V3: Number of times bounced in recent 12 months
+V4: Maximum MOB (Month of business with TVS Credit)
+V5: Number of times bounced while repaying the loan
+V6: EMI
+V7: Loan Amount
+V8: Tenure
+V9: Dealer codes from where customer has purchased the Two wheeler
+V10: Product code of Two wheeler (MC : Motorcycle , MO : Moped, SC : Scooter)
+V11: No of advance EMI paid
+V12: Rate of interest
+V13: Gender (Male/Female)
+V14: Employment type (HOUSEWIFE : housewife, SELF : Self-employed, SAL : Salaried, PENS : Pensioner, STUDENT : Student)
+V15: Resident type of customer
+V16: Date of birth
+V17: Age at which customer has taken the loan
+V18: Number of loans
+V19: Number of secured loans
+V20: Number of unsecured loans
+V21: Maximum amount sanctioned in the Live loans
+V22: Number of new loans in last 3 months
+V23: Total sanctioned amount in the secured Loans which are Live
+V24: Total sanctioned amount in the unsecured Loans which are Live
+V25: Maximum amount sanctioned for any Two wheeler loan
+V26: Time since last Personal loan taken (in months)
+V27: Time since first consumer durables loan taken (in months)
+V28: Number of times 30 days past due in last 6 months
+V29: Number of times 60 days past due in last 6 months
+V30: Number of times 90 days past due in last 3 months
+V31: Tier ; (Customer’s geographical location)
+V32: Target variable ( 1: Defaulters / 0: Non-Defaulters)
